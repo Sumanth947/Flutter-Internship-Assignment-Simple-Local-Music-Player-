@@ -1,47 +1,38 @@
-Simple Local Music Player
-A straightforward Flutter app to pick and play local MP3 files with essential playback features and clean UI.
+# Simple Local Music Player
 
-Features
-Select MP3 files from device storage with file picker (restricted to .mp3).
+A minimal Flutter application that allows users to pick and play local MP3 files with essential playback controls and a clean UI.
 
-Displays:
+---
 
-Track title (extracted from filename).
+## Features
 
-Artist as "Unknown Artist" (no metadata extraction).
+- Select MP3 files from device storage using a file picker (restricted to `.mp3`).
+- Displays:
+  - Track title (extracted from the file name)
+  - Artist as "Unknown Artist" (metadata is not extracted)
+- Basic playback controls:
+  - Play, pause, and resume
+  - Seek bar with a draggable slider
+  - Current playback time and total duration
+- Playback resets to the start when a track finishes.
+- Smooth switching between songs without restarting the app.
+- Error handling with simple, user-friendly messages.
+- State management implemented using Provider for clean separation of logic and UI.
 
-Basic playback controls:
+---
 
-Play, pause, and resume.
+## Getting Started
 
-Seek bar with draggable slider.
+### Prerequisites
 
-Display current playback time and total duration.
+- Flutter SDK installed
+- Android/iOS device or emulator
 
-Playback resets to start on track completion, ready to replay.
+---
 
-Smoothly switch and play different songs without app restart.
-
-Error handling with user-friendly messages.
-
-State management using Provider for clean separation of logic and UI.
-
-Getting Started
-Prerequisites
-Flutter SDK installed (check Flutter installation guide)
-
-Android/iOS device or emulator
-
-Installation and Running
-Clone the repository:
+## Installation and Running
 
 git clone <your-repo-url>
 cd <repo-folder>
-Get Flutter dependencies:
-
 flutter pub get
-Run the app on your device or emulator:
-
-text
 flutter run
-Use the Pick MP3 button in the app to select and play music files.
