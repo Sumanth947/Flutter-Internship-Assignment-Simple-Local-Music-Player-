@@ -1,30 +1,47 @@
 Simple Local Music Player
+A straightforward Flutter app to pick and play local MP3 files with essential playback features and clean UI.
+
 Features
-Pick MP3 files from device storage (restricted to .mp3 files).
+Select MP3 files from device storage with file picker (restricted to .mp3).
 
-Display track title (from filename).
+Displays:
 
-Play, pause, and resume music playback.
+Track title (extracted from filename).
 
-Seek to any position within the track using a slider.
+Artist as "Unknown Artist" (no metadata extraction).
 
-Show current playback time and total duration.
+Basic playback controls:
 
-Playback stops and resets to start upon track completion.
+Play, pause, and resume.
 
-Switch and play different selected songs smoothly.
+Seek bar with draggable slider.
 
-Basic error handling with user-friendly messages.
+Display current playback time and total duration.
 
-Uses Provider for state management and clean separation of logic/UI.
+Playback resets to start on track completion, ready to replay.
 
-How to Run
-Clone the repository.
+Smoothly switch and play different songs without app restart.
 
-Run flutter pub get to install dependencies.
+Error handling with user-friendly messages.
 
-Connect an Android/iOS device or launch an emulator.
+State management using Provider for clean separation of logic and UI.
 
-Run the app with flutter run.
+Getting Started
+Prerequisites
+Flutter SDK installed (check Flutter installation guide)
 
-Use the "Pick MP3" button to select a local music file and control playback through the UI.
+Android/iOS device or emulator
+
+Installation and Running
+Clone the repository:
+
+git clone <your-repo-url>
+cd <repo-folder>
+Get Flutter dependencies:
+
+flutter pub get
+Run the app on your device or emulator:
+
+text
+flutter run
+Use the Pick MP3 button in the app to select and play music files.
