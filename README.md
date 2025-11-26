@@ -32,7 +32,7 @@ A minimal Flutter application that allows users to pick and play local MP3 files
 
 ## Installation and Running
 
-git clone <your-repo-url>
-cd <repo-folder>
-flutter pub get
+git clone <your-repo-url> ,
+cd <repo-folder> ,
+flutter pub get ,
 flutter run
