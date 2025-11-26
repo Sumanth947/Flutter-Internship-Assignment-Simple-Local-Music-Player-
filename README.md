@@ -1,16 +1,30 @@
-# bose_music_app
+Simple Local Music Player
+Features
+Pick MP3 files from device storage (restricted to .mp3 files).
 
-A new Flutter project.
+Display track title (from filename).
 
-## Getting Started
+Play, pause, and resume music playback.
 
-This project is a starting point for a Flutter application.
+Seek to any position within the track using a slider.
 
-A few resources to get you started if this is your first Flutter project:
+Show current playback time and total duration.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Playback stops and resets to start upon track completion.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Switch and play different selected songs smoothly.
+
+Basic error handling with user-friendly messages.
+
+Uses Provider for state management and clean separation of logic/UI.
+
+How to Run
+Clone the repository.
+
+Run flutter pub get to install dependencies.
+
+Connect an Android/iOS device or launch an emulator.
+
+Run the app with flutter run.
+
+Use the "Pick MP3" button to select a local music file and control playback through the UI.
